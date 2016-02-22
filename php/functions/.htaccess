@@ -1,0 +1,11 @@
+##
+# Keep in Med /php/functions/
+##
+
+# Disable access
+Order Deny,Allow
+Deny from all
+Satisfy all
+
+
+

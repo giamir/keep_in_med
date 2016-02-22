@@ -1,0 +1,56 @@
+/*-------------------------------------------
+login.css
+-------------------------------------------*/
+
+@import url('general.css');
+
+
+
+#login{
+	background: #ecf0f1 url(../images/background_login.jpg) no-repeat center bottom;
+}
+
+#login_box{
+	background: transparent url(../images/icons/opacity.png) repeat;
+	margin: 0;
+	padding: 50px;
+	position: absolute;	
+}
+
+#login h1 span, #login h2 span{
+	display: none;
+}
+
+
+#login h1, #login h2{
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 250px;
+}
+
+#login h1{
+	background: transparent url(../images/keepinmed.png) no-repeat bottom center;
+	height: 49px;
+
+}
+
+#login h2{
+	background: transparent url(../images/mms.png) no-repeat bottom center;
+	height: 20px;
+}
+
+#login button{
+	background: #ff7f66;
+	color: #fff;
+	border: none;
+	font-weight: bold;
+	margin: 30px auto 0 auto;
+	padding: 12px 0;
+	
+}
+
+#login #footer{
+	background: transparent url(../images/icons/opacity.png) repeat;
+	border: none;
+}

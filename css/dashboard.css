@@ -1,0 +1,27 @@
+/*-------------------------------------------
+dashboard.css
+-------------------------------------------*/
+
+@import url('general.css');
+
+
+
+#dashboard object.clock{
+	float: right;
+	margin-right: -20px;
+}
+
+#dashboard .report{
+	border-top: 1px solid #ccc;
+	padding: 20px 0 0 0;
+	text-align:left;
+}
+
+#dashboard .report p{
+	display: inline-block;
+	padding: 0 5px;
+}
+
+#dashboard .main{
+	width: 500px;
+}

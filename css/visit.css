@@ -1,0 +1,27 @@
+/*-------------------------------------------
+visit.css
+-------------------------------------------*/
+
+@import url('general.css');
+
+
+#visit #mainbox h1{
+	padding: 0px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #ccc;
+}
+
+#visit .box .modify, #visit .box .delete, #visit .box .download{
+	margin: 10px 0 10px 15px;
+	float: left;
+}
+
+#visit #action{
+	margin-top: 15px;
+	display: inline-block;
+	float: right;
+}
+
+#visit .box h4{
+	margin-bottom: 0px;
+}

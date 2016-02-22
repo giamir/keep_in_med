@@ -1,0 +1,62 @@
+/*-------------------------------------------
+modal.css
+-------------------------------------------*/
+
+@import url('general.css');
+
+
+
+
+.select{
+	display: inline-block;
+	border: 1px solid #ccc;
+	padding: 6px 5px;
+	cursor: pointer;
+}
+
+.day{
+	width: 45px;
+}
+
+.month{
+	width: 90px;
+}
+
+input.year{
+	display:inline;
+	width: 45px;
+	text-align: center;
+}
+
+
+
+.select-button{
+	display: inline-block;
+	margin:0 0 0 10px;
+	padding:0;
+	background: transparent url('../images/icons/select.png');
+	width:7px;
+	height:11px;
+	border: 0;
+	vertical-align:middle;
+	float: right;
+}
+
+ul.options{
+	background: #fff;
+	position: absolute;
+	border: 1px solid #ccc;
+	padding: 5px 0;
+	width: auto;
+	overflow: hidden;
+	z-index: 502;
+}
+
+ul.options li{
+	padding: 5px 50px 5px 15px;
+}
+
+ul.options li:hover{
+	background: #eeeeee;
+}
+

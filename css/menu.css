@@ -1,0 +1,111 @@
+/*-------------------------------------------
+menu.css
+-------------------------------------------*/
+
+#menu{
+	background: #fff;
+	width: 100%;
+	height: 42px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+	position:fixed;
+	top: 0;
+	display: block;
+	text-align: center;
+}
+
+#menu-content{
+	width: 960px;
+	margin: 0 auto;
+	height: 100%;
+	overflow: hidden;
+}
+
+#menu-content a{
+	color: #3e454c;
+	text-decoration: none;
+}
+
+ul#navigation-left{
+	float: left;
+}
+
+ul#navigation-left li{
+	margin-right:10px;
+	width:130px;
+}
+
+ul#navigation-right{
+	float: right;
+}
+
+ul#navigation-right li{
+	margin-left: 20px;
+	width: auto;
+}
+
+#menu-content li{
+	list-style: none;
+	display: inline;
+	display: inline-block;
+	text-align: center;
+	padding: 8px 0 0 0;
+	height: 42px;
+	
+}
+
+#menu-content li a{
+	display: inline-block;
+	height: 30px;
+}
+
+#menu-content li.active a{
+	font-weight: bold;
+	border-bottom: 2px solid #2185c5;
+}
+
+#menu-content li a span{
+	display: none;
+}
+
+#menu-content li.dashboard, #menu-content li.logout{
+	width: auto;
+}
+
+#menu-content li.dashboard a{
+	display: inline-block;
+	background: transparent url('../images/icons/logo.png') no-repeat;
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+}
+
+#menu-content li.logout a{
+	display: inline-block;
+	background: transparent url('../images/icons/logout.png') no-repeat;
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+}
+
+#menu-content li.logout a:hover{
+	background: transparent url('../images/icons/logout_hover.png') no-repeat;
+}
+
+#notice{
+	clear:both;
+	margin: 0;
+	display: block;
+	color: #fff;
+	opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+#notice p.success{
+	background: #1abc9c;
+}
+
+#notice p.failed{
+	background: #ff7f66;
+}
+
+

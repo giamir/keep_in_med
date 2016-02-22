@@ -1,0 +1,58 @@
+/*-------------------------------------------
+documentation.css
+-------------------------------------------*/
+
+@import url('general.css');
+
+
+
+#documentation{
+	background: #ecf0f1 url(../images/background.jpg) repeat top left;
+}
+
+#documentation h1{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+
+#documentation span.version{
+	font-size: 14px;
+}
+
+#documentation h2{
+	font-size: 18px;
+	padding-bottom: 0;
+}
+
+#documentation h3{
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+#documentation h3.instructions{
+	background: transparent url(../images/icons/instructions.png) no-repeat right top;
+	border-bottom: 1px solid #ccc;
+	display: block;
+}
+
+#documentation h3.technical{
+	background: transparent url(../images/icons/technical.png) no-repeat right top;
+	border-bottom: 1px solid #ccc;
+	display: block;
+	margin-bottom: 20px;
+}
+
+#documentation ul{
+	padding-bottom: 30px;
+}
+
+#documentation ul li{
+	margin: 0 0 0 10px;
+	padding: 5px 0 5px 20px;
+	background: transparent url(../images/icons/arrow.gif) no-repeat left center;
+}
+
+#documentation dl dt{
+	margin: 10px 0 0;
+}

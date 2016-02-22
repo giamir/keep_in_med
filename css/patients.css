@@ -1,0 +1,22 @@
+/*-------------------------------------------
+patients.css
+-------------------------------------------*/
+
+@import url('general.css');
+
+
+#patients .column{
+	width: 250px;
+	margin: 0 30px;
+}
+
+#patients .box h2{
+	display: block;
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;	
+}
+
+#patients .box .modify, #patients .box .delete, #patients .box .handle, #patients .box #patients .refresh, #patients .box .add{
+	margin: -3px 0 0 3px;
+}

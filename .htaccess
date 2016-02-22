@@ -1,0 +1,21 @@
+##
+# Keep in Med /
+##
+
+# Secure htaccess file
+<Files .htaccess>
+ order allow,deny
+ deny from all
+</Files>
+
+# Disable Directory Listing
+Options All -Indexes
+
+# Set Directory Index
+DirectoryIndex index.html index.php
+
+# Custom Error 404
+#ErrorDocument 404 /keepinmed3/
+
+
+

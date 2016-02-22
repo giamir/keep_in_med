@@ -1,0 +1,207 @@
+/*-------------------------------------------
+modal.css
+-------------------------------------------*/
+
+@import url('general.css');
+
+
+
+#modal-box {
+    background:#fff;
+    padding:0;
+	margin: 0;
+	border: none;
+	height: auto;
+    width:100%;
+	display: block;
+}
+
+/*-- modal-top with clearfix for floating elements --*/
+#modal-top {
+	background: #2185c5;
+    width:100%;
+	color: #fff;
+	text-align: center;
+	display:inline-block;
+}
+
+#modal-top:after{
+	content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#modal-top{
+	display:block;
+}
+/*-- end of clearfix --*/
+
+#modal-top a.close{
+	background: transparent url('../images/icons/close.png') no-repeat;
+	width:12px;
+	height:12px;
+	display:inline-block;
+	float: right;
+	margin: 10px 10px 0 0;
+}
+
+#modal-top a span{
+	display:none;
+}
+
+#modal-top h2{
+	padding: 20px;
+	font-size: 20px;
+}
+
+/*-- modal-top ul with clearfix for floating elements --*/
+#modal-top ul{
+	display:inline-block;
+}
+
+#modal-top ul:after{
+	content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#modal-top ul{
+	display:inline-block;
+	margin: 0 auto;
+}
+/*-- end of clearfix --*/
+
+#modal-top li{
+	margin: 10px 20px 20px 20px;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	float: left;
+}
+
+#modal-top li a{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+
+#modal-top li.basic{
+	background: transparent url('../images/icons/basic.png');
+}
+
+#modal-top li.contact{
+	background: transparent url('../images/icons/contact.png');
+}
+
+#modal-top li.residence{
+	background: transparent url('../images/icons/residence.png');
+}
+
+#modal-top li.password{
+	background: transparent url('../images/icons/password.png');
+}
+
+#modal-top li.basic_active{
+	background: transparent url('../images/icons/basic_active.png');
+}
+
+#modal-top li.contact_active{
+	background: transparent url('../images/icons/contact_active.png');
+}
+
+#modal-top li.residence_active{
+	background: transparent url('../images/icons/residence_active.png');
+}
+
+#modal-top li.password_active{
+	background: transparent url('../images/icons/password_active.png');
+}
+
+#modal-top li.login{
+	background: transparent url('../images/icons/login.png');
+}
+
+
+
+
+/*-- modal-form with clearfix for floating elements --*/
+#modal-form {
+	padding: 20px;
+	text-align: left;
+	display:inline-block;
+}
+
+#modal-form:after{
+	content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#modal-form{
+	display:block;
+}
+/*-- end of clearfix --*/
+
+#modal-form table{
+	width: 100%;
+}
+
+#modal-form table label{
+	font-weight: bold;
+}
+
+#modal-form tr{
+	border-bottom: 1px solid #ccc;
+}
+
+#modal-form table td{
+	display: inline-block;
+	padding: 30px 0;
+	vertical-align: middle;
+}
+
+#modal-form table td.key{
+	width: 100px;
+}
+
+#modal-form table td.field{
+	width: 250px;
+}
+
+#modal-form table td.textarea{
+	width: 450px;
+}
+
+#modal-form table td.message{
+	width: 200px;
+	padding-left: 25px;
+	text-align:right;
+}
+
+#modal-form table td.error{
+	background: transparent url(../images/icons/error.png) no-repeat center left;
+	color:#ff7f66;
+}
+
+#modal-form table td.info{
+	width:100%;
+	text-align: center;
+}
+
+#modal-form #ajax_error{
+	height: 30px;
+	padding:15px 0 0 0;
+	text-align: center;
+	color:#ff7f66;
+}
+
+
